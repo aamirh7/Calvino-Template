@@ -1,0 +1,177 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    color: white;
+}
+div.links{
+    display: flex;
+    gap: 20px;
+}
+div.links li{
+    list-style: none;
+}
+div.links li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+}
+#navbar h1{
+    font-size: 30px;
+}
+div.links button{
+    font-size: 20px;
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(255, 144, 100);
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+div.about-info-single{
+    display: flex;
+}
+div.about-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 60px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 22px;
+}
+#hero-section{
+    background-color: rgb(255, 144, 100);
+    height: 100vh;
+    background: url(images/h1_hero.png);
+    font-size: 25px;
+}
+div.content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+div.content h2{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+div.content p{
+display: flex;
+flex-direction: column;
+}
+div.logo img{
+    size: 63px 63px;
+    margin-left: 100px;
+}
+div.logo h1{
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+div.logo p{
+    color: black;
+    margin-top: 150px;
+    margin-right: 0px;
+    margin-left: -500px;
+    font-size: 30px;
+}
+div.email-icon{
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 0px;
+}
+div.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-between;
+
+}
+h2{
+    margin-left: 100px;
+    padding: 50px;
+    font-size: 40px;
+}
+div.container h5 a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+div.gallery-area img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.btn button{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    border: 1px rgb(255, 144, 100);
+    padding: 5px 10px;
+    color:rgb(255, 144, 100);
+    border: 1px solid rgb(255, 144, 100);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: left;
+    @-webkit-keyframes progress-bar-stripes {
+        from {
+            background-position: 1rem 0
+        }
+    
+        to {
+            background-position: 0 0
+        }
+    }
+    
+    @keyframes progress-bar-stripes {
+        from {
+            background-position: 1rem 0
+        }
+    
+        to {
+            background-position: 0 0
+        }
+    }
+    
+    .progress {
+        display: -ms-flexbox;
+        display: flex;
+        height: 1rem;
+        overflow: hidden;
+        font-size: .75rem;
+        background-color: #e9ecef;
+        border-radius: .25rem
+    }
+    
+    .progress-bar {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: center;
+        justify-content: center;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #007bff;
+        transition: width .6s ease
+    }
